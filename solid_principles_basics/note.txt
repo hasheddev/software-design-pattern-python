@@ -1,0 +1,41 @@
+Single responsibility principle or separation of concerns
+
+A class or function should have only one primary responsibility and should not take on others
+
+OPEN CLOSED PRINCIPLE
+The "Rule of Three" Trigger
+Do not design for OCP on Day 1. Write the simplest code possible first.
+
+1st time: Write it directly (even if it uses if/else).
+
+2nd time: Duplicate or tweak it slightly.
+
+3rd time: You now have a proven pattern of change. Refactor to OCP.
+
+1. Giant if/elif/else or switch blocks on types or enums
+If adding a new business option forces you to find and append another elif branch to an existing function, it violates OCP.
+
+Example: if shape == "circle": ... elif shape == "square": ...
+
+2. You keep editing the same file for different feature requests
+Check your Git commit history for a file. If payment_processor.py or report_generator.py appears in almost every pull request, that class has too many responsibilities and isn't closed for modification.
+
+3. Cascading test breakages
+When you add a new feature, do 5 unrelated unit tests fail because you modified a shared class? That indicates tight coupling that OCP abstraction would fix.
+
+4. Conditional logic based on rigid string/int types
+Whenever logic checks if item.type == 1: or if user.role == "admin":, you will inevitably need a type 2 or role "editor" later.
+
+
++-------------------------------------------------------------+
+| SRP: "One reason to CHANGE" (Focuses on CLASS IMPLEMENTATION)|
+| -> Don't mix file logging, database access, and UI logic   |
+|    inside a single User class.                              |
++-------------------------------------------------------------+
+                              |
+                              v
++-------------------------------------------------------------+
+| ISP: "No forced DEPENDENCIES" (Focuses on CLIENT USAGE)     |
+| -> Don't force a client to depend on methods it doesn't use |
+|    by creating fat interfaces.                              |
++-------------------------------------------------------------+

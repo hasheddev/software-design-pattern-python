@@ -1,0 +1,15 @@
+Design patterns are common architectural approaches in OOP
+
+Gamma categorization splits design patterns into three categoreis
+Creational patterns:
+- creation/constructuon of an object
+- explicit vs implicit(DI, reflection)
+- wholesale(single statement) vs piecewise(step by step)
+
+Structural Patterns:
+- Concerned with structure
+- May patterns are wrappers that mimic underlying class' interface
+- Stress the importance of good API design
+
+Behavioural Patterns:
+- Different, no central theme with some overlap and solve unique problems
