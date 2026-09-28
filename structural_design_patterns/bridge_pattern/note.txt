@@ -1,0 +1,8 @@
+Connect component with abstraction to avoid cartesian complexity explosion
+
+E.g ThreadScheduler can be preemptive or coorporative and can run on windows or Unix
+Bridge pattern avoids 2 * 2 scenario
+
+Decouples an interface (hierarchy) from an implementation (hierarchy)
+
+NOT good with open closed principle

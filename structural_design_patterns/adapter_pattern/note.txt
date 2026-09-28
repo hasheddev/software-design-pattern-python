@@ -1,0 +1,20 @@
+A constuct which adapts an existing interface x to conform to interface y
+
+The Adapter Pattern is used to make two incompatible interfaces work together without changing their original source code.
+Why Use the Adapter Pattern?
+Interface Compatibility: It acts as a bridge or translator between an existing class and what the client code expects.
+Legacy Code Integration: It allows you to reuse old legacy systems or third-party libraries in a new application without rewriting them.
+Open/Closed Principle: It lets you introduce new adapter classes without breaking existing client code.
+Separation of Concerns: It isolates the conversion and translation logic from your core business logic.
+
+Common Real-World ScenariosPower Adapters:
+Plugging a three-pin device into a two-pin electrical socket using a physical adapter.
+Data Format Conversion: Translating old data structures or formats like XML into JSON for a new analytics library.
+Third-Party APIs: Wrapping different payment gateways (like PayPal or Stripe) so your application can use a single, unified payment method.
+
+
+Determina APi present and API needed
+
+Create a component which aggregates(has a reference to the adaptee)
+
+Intermediate representations can pile up use caching and other optimizations
