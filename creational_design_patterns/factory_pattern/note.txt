@@ -1,0 +1,11 @@
+Used when
+Object creation logic becomes too convoluted
+Initializer is not descriptive and cannot be overloaded with different names
+- can turn into optional parameter hell
+Wholesale object creation non-precise can be outsourced to
+-a separate method
+- a separate class
+- can create hierarchy of factories with abstract factory
+
+** A factory is a component responsible solely for the wholesale(not piecewise) creation of objects
+An alternative to an Initializer

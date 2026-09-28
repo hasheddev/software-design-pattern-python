@@ -1,4 +1,4 @@
-#For an interface that takes a base class using a derived class should have not effect of the interface 
+#For an interface that takes a base class using a derived class should have not affect the effect of the interface 
 from abc import ABC, abstractmethod
 
 class Rectangle:
