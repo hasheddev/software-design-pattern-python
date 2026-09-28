@@ -1,0 +1,5 @@
+Only initialized once like database repository, object factory
+
+if initializer call is expensive
+
+A component instantiated only once

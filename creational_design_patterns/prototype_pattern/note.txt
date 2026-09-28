@@ -1,0 +1,19 @@
+Complicated objects are not designed fron scratch they reiterate existing designs
+
+An existing (partially or fully constructed) design is a prototype
+we make a copy of the prototype and customize it
+
+A partially or fully initialized object copied or cloned and used
+
+Key Reasons to Use the Prototype Pattern
+Saves System Resources and Time: When creating a brand-new object is an "expensive" or time-consuming operation—such as when initialization requires heavy database queries, network calls, or complex calculations—cloning an already existing object is significantly faster.
+Decouples Code from Concrete Classes: It allows you to clone objects without making your code dependent on their specific, concrete classes. Your code only needs to interact with a generic prototype interface that contains a .clone() method.
+Reduces Subclassing: Instead of creating a massive hierarchy of subclasses just to instantiate objects with different default configurations (e.g., RedCircle, BlueCircle, LargeSquare), you can simply instantiate a generic object, configure its state once, and clone it as needed.
+Simplifies Dynamic Runtime Configuration: If your application needs to generate variations of complex objects on the fly, you can store pre-configured instances in a registry or cache. When a specific variation is requested, you just clone it and modify only the properties that need to change.
+
+Common Real-World Use Cases
+Game Engines: Replicating thousands of identical enemies, trees, or projectiles on a map without suffering the performance hit of initializing each one individually.
+Graphic Design Software: Implementing copy-paste functionality for shapes, layers, or complex groupings of visual elements.
+Document Management Systems: Cloning a master template to quickly spin up a new document invoice or report for a user
+
+Fixed number of prototypes
