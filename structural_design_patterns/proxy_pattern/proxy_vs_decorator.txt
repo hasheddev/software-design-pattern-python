@@ -1,0 +1,3 @@
+Proxy provides an identical interface while decorator provides an enhanced interface
+
+Decoratir typically aggregates or refrerences what it decorates while proxy does not have to

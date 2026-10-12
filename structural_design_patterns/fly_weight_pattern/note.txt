@@ -1,0 +1,4 @@
+• Saves RAM: It stops duplicate data from being stored repeatedly by separating an object's data into two parts:
+	• Intrinsic State: Shared, unchanging data (e.g., color, font, or texture) that can be cached and reused across many objects.
+	• Extrinsic State: Unique, changing data (e.g., X/Y coordinates or specific text position) passed in externally when needed.
+• Improves Performance: Fewer duplicate objects mean lower memory usage, faster object creation, and less pressure on the garbage collector

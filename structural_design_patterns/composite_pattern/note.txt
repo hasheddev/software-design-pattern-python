@@ -1,4 +1,4 @@
-Goal is to treat individual and group objects ina uniform fashion to provide an identical interface
+Goal is to treat individual and group objects in a uniform fashion to provide an identical interface
 
 • Part-whole hierarchies: Modeling structures where an object can be a single item (a "part") or a container holding more items (a "whole").
 • Uniform treatment: Allowing client code to call methods on both single items and collections without writing if/else type-checking logic.
