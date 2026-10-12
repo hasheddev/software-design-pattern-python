@@ -15,4 +15,4 @@ class Database:
 if __name__ == "__main__":
     d1 = Database()
     d2 = Database()
-    d1 = d2
+    print(d1 is d2)

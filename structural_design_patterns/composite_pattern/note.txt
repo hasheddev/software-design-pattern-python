@@ -1,0 +1,5 @@
+Goal is to treat individual and group objects ina uniform fashion to provide an identical interface
+
+• Part-whole hierarchies: Modeling structures where an object can be a single item (a "part") or a container holding more items (a "whole").
+• Uniform treatment: Allowing client code to call methods on both single items and collections without writing if/else type-checking logic.
+• Simplifying recursive operations: Making it easy to run an operation (like calculating file sizes, rendering UI components, or pricing delivery boxes) down a deep tree structure.

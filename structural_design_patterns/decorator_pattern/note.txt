@@ -1,0 +1,3 @@
+Augment object with functionality while maintaining
+OCP, keeping new functionality separate, needing to interact with existing structures
+We can Inherit if posssible or Use decorators

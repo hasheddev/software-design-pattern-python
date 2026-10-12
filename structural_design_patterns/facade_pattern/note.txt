@@ -1,0 +1,4 @@
+• Hides complexity: It wraps messy or multi-step internal logic behind an easy-to-use method.
+• Reduces coupling: Client code talks only to the facade instead of managing many interdependent classes.
+• Improves readability: It cleans up code by moving repetitive orchestration into a single place.
+• Protects against changes: If the internal system updates, you only need to change the facade instead of breaking every client file
