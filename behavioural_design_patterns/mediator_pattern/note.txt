@@ -1,0 +1,4 @@
+Components may go in and out of the system at any time
+e.g chat room, mmorpg  having references to one another is a nightmare
+We use a component that facilitates commununication between other components without them necessarily being aware of
+each other or having direct reference to each oterh

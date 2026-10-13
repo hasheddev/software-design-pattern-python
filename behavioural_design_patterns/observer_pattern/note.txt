@@ -1,0 +1,14 @@
+We need to be informed about changes
+Object's property changes or it does something
+External event occurs
+
+We want to listen and be notified when they occur and notofication should include useful data
+
+We want to unsubsribe from events if we are no longer interested
+
+Obeserver(wishes to be informed) is informed by Observable which generates an event when an event occurs
+
+The Observer pattern is a behavioral design pattern that establishes a one-to-many dependency between objects. When one object (the Subject or Publisher) changes its state, all its dependents (Observers or Subscribers) are notified and updated automatically. 
+
+UI and State Management: In frontend development or MVC architectures, the view (Observer) listens to changes in a data store or model (Subject) to automatically re-render when state changes
+GUI Event Listening: Native desktop or web applications where browser event targets handle user interactions (e.g., JavaScript’s addEventListener registering multiple actions for a single click).

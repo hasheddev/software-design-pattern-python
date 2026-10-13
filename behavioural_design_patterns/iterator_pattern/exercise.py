@@ -25,4 +25,5 @@ class Node:
     array.append(root.value)
     Node.preorder(root.left, array)
     Node.preorder(root.right, array)
+    return array
     

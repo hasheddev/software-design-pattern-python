@@ -1,0 +1,8 @@
+The Memento pattern is a behavioral design pattern that allows you to capture and save the current state of an object so it can be restored later, without breaking encapsulation or exposing its internal structure
+💡 Common Use Cases
+
+• Undo/Redo Functionality: Commonly used in text editors, graphic design software, or document builders to let users reverse actions.
+• Game Progress & Checkpoints: Saving local player states, inventory items, and coordinates so that a user can return to a previous checkpoint upon failure.
+• Transaction Rollbacks: Maintaining pre-transaction snapshots of application memory data structures so changes can be reverted if an operation fails midway.
+
+Represnts system state allows rolback to state when token is generated. May not directly expose state info
