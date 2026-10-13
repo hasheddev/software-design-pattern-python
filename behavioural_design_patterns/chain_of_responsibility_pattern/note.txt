@@ -1,0 +1,7 @@
+• Decoupling: The sender of a request does not need to know which specific object will ultimately handle it.
+• Single Responsibility Principle: Each handler class focuses on one specific rule or task.
+• Open/Closed Principle: You can add, remove, or reorder handlers dynamically without modifying existing handler code or the client.
+• Flexibility: It avoids massive if-else or switch conditional statements that grow messy over time.
+
+A chain of components who all get  chance to process a command or query optionally having a default processing
+implementation and an ability to terminate the processing chain

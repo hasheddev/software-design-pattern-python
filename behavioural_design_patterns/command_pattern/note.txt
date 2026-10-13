@@ -1,0 +1,8 @@
+Developers use the Command pattern when they need flexibility in how and when operations are executed. Key benefits include:
+1. Undo / Redo Functionality: Because each action is tracked as an independent object, you can easily save them to a history stack. Reversing an action is as simple as popping it from the stack and calling an undo() method.
+Replay, Record e.t.c
+2. Queuing and Delaying Actions: Since commands are objects, they can be stored in queues, scheduled for later execution, or sent over a network.
+3. Extensibility (Open/Closed Principle): You can introduce new commands or change existing ones without altering your existing codebase or modifying the invoker.
+4. Macro Commands: You can easily string multiple command objects together to execute complex sequences of actions with a single trigger
+
+An obect which represents an instruction to perform a particular action. COnta8ins all the informaton necessary for the action to be taken

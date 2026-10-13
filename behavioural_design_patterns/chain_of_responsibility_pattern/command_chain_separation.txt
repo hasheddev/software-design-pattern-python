@@ -1,0 +1,5 @@
+Query: Asking for infor e.g 
+
+Command asking for an action e.g set value to 2
+
+CQS having separete means of sending command and queries
