@@ -28,14 +28,14 @@ class ProductFilter:
     def filter_by_size(self, products: list[Product], size: Size):
         for p in products:
             if p.size == size:
-                yield 
+                yield  p
 
 #modifying already tested code to extend functionality is not the best method
 #This also causes state space explosion as we can also filter by or   2^n -1
     def filter_by_size_and_color(self, products: list[Product], size: Size, color: Color):
         for p in products:
             if p.size == size and p.color == color:
-                yield 
+                yield p
 #access by for loop or convert to list list(filter) or user next(filter())
 
 class Specification:

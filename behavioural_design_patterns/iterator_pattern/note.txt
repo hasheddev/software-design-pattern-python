@@ -1,0 +1,8 @@
+An iterator is a class that facilitates traversal of a data structure
+
+Keeps a reference to curent element
+know hoe to move to a different element
+
+Requires __iter__() to expose iterator which uses
+__next__ to return  each of the iterated elements or
+raise StopIteration when it is done
