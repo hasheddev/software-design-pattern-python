@@ -1,0 +1,25 @@
+The State Design Pattern is a behavioral software design pattern that allows an object to alter its behavior when its internal state changes. To the outside observer, the object appears to change its entire class at runtime.
+
+• An object's behavior changes dynamically based on its current properties/status.
+• Your methods are becoming polluted with heavy, duplicate conditional checks evaluating a status flag.
+• You need to adhere to the Open/Closed Principle, meaning you want to add new states in the future without modifying existing state code.
+
+Changes can be explicit or in response to an event
+A formalized construc that manages state and transition is called a state machine
+
+
+[ ON_HOOK ]  --(Pick up handset)-->  [ OFF_HOOK ]
+                                          |
+                                    (CALL_DIALED)
+                                          v
+                                    [ CONNECTING ]
+                                          |
+                                   (CALL_CONNECTED)
+                                          v
+ [ ON_HOLD ] <--(PLACED_ON_HOLD)--- [ CONNECTED ]
+      |                                   |
+      +--------(TAKEN_OFF_HOLD)-----------+
+                                          |
+                                      (HANG_UP)
+                                          v
+                                     [ ON_HOOK ]

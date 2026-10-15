@@ -1,0 +1,5 @@
+The Strategy Design Pattern is a behavioral software design pattern that defines a family of interchangeable algorithms, encapsulates each one, and makes them interchangeable at runtime. It allows an application to select different behaviors dynamically without altering the core system that relies on them
+
+• 🛒 E-Commerce Checkout: Selecting a payment method dynamically (e.g., Credit Card, PayPal, Crypto) where each has its own validation and gateway APIs.
+• 📦 Shipping Calculators: Switching between different providers (e.g., FedEx, UPS, DHL) to compute rates based on varying weight matrix logic.
+• 🗜️ File Compression: Dynamically choosing to output files as .zip, .tar.gz, or .rar based on user selection.

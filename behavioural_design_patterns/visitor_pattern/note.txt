@@ -1,0 +1,5 @@
+Define new operation on an entire class hierarchy and not modify every class in hierarchy
+And we need access to non common aspects of each type
+we create an external component to handle rendering and avoid explicit type checks
+
+A component that knows how to traverse a data structure composed of possibly related types
